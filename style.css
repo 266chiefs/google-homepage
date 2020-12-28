@@ -50,13 +50,17 @@ li {
     padding-bottom: 15px;
     width: 475px;
     border-radius: 25px;
-    text-align: center;
+    text-align: left;
     border: 1px solid rgb(206,206,206);
  }
 
 #search-bar:focus {
      outline: none;
     }
+
+input {
+    padding: 10px 25px;
+}
 
 #middle-buttons {
     text-align: center;
@@ -83,7 +87,8 @@ li {
 
 #footer-right {
     position: absolute;
-    right: 10px;
+    right: 50px;
+    margin: 0px;
 }
 
 #top-spacer {
