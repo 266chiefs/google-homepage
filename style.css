@@ -43,7 +43,6 @@ li {
 #search-bar-container{
     text-align: center;
     margin-top: 20px;
-    border-color: 1px rgb(206, 206, 206);
 }
 
 #search-bar {
@@ -51,10 +50,13 @@ li {
     padding-bottom: 15px;
     width: 475px;
     border-radius: 25px;
-    text-emphasis: none;
-    outline: 0;
     text-align: center;
+    border: 1px solid rgb(206,206,206);
  }
+
+#search-bar:focus {
+     outline: none;
+    }
 
 #middle-buttons {
     text-align: center;
